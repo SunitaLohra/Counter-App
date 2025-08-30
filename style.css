@@ -1,0 +1,53 @@
+ *{
+  margin: 0;
+  padding: 0;
+ }
+ body{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(230, 230, 230);
+  display: flex;
+   align-items: center;
+  justify-content: center;
+  padding-top: 22vh;
+  
+ }
+ .main1{
+  display: flex;
+  height: 55vh;
+  width: 30vw;
+  background-color: white;
+  border-radius: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   gap: 4.2vh;
+ }
+  .main1 h1{
+    font-size: 3vw;
+  }
+   .main1 p{
+    font-size: 6vw;
+   }
+   .btn{
+       display: flex; 
+       gap: 1vw; 
+        
+   }
+    button{
+      border-radius: 12px; 
+      height: 35px;
+      width: 90px;
+     border: none;
+     cursor: pointer;
+       font-size: 15px;
+    }
+    .btn1 {
+   background-color:rgb(230, 50, 50);
+   color: white;
+    }
+    .btn2{
+      background-color: rgb(14, 109, 14);
+      color: white;
+    }
